@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#ff69b4">
+    <title>Parabéns! 🎉 Galeria de Momentos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><style>.heart{fill:%23ff69b4}</style></defs><circle fill='%23ffe6f0' cx='64' cy='64' r='64'/><path class='heart' d='M64,115 C64,115 20,85 20,60 C20,45 30,35 40,35 C50,35 60,45 64,55 C68,45 78,35 88,35 C98,35 108,45 108,60 C108,85 64,115 64,115 Z'/></svg>">
+</head>
+<body>
+    <div class="galeria-container">
+        <!-- Header -->
+        <header class="galeria-header">
+            <h1>🌟 Parabéns! 🌟</h1>
+            <p class="header-subtitle">Uma galeria de nossos momentos especiais</p>
+        </header>
+
+        <!-- Carrossel Principal -->
+        <div class="carousel-wrapper">
+            <div class="carousel-container" id="carouselContainer">
+                <!-- Slides serão adicionados dinamicamente -->
+                <div class="slide active">
+                    <div class="slide-placeholder">
+                        <p>Foto 1</p>
+                    </div>
+                    <p class="slide-caption">Adicione suas fotos aqui</p>
+                </div>
+            </div>
+
+            <!-- Controles de navegação -->
+            <button class="carousel-btn prev" id="prevBtn">❮</button>
+            <button class="carousel-btn next" id="nextBtn">❯</button>
+
+            <!-- Indicadores de slide -->
+            <div class="carousel-indicators" id="indicatorsContainer">
+                <span class="indicator active" data-slide="0"></span>
+            </div>
+        </div>
+
+        <!-- Thumbnails (Slider inferior) -->
+        <div class="thumbnails-container" id="thumbnailsContainer">
+            <!-- Thumbnails serão adicionados dinamicamente -->
+        </div>
+
+        <!-- Info do Slide -->
+        <div class="slide-info">
+            <div class="info-card">
+                <h2 id="slideTitle">Momento Especial</h2>
+                <p id="slideDescription">Clique nos botões para navegar pelos nossos momentos incríveis juntos</p>
+            </div>
+        </div>
+
+        <!-- Controles adicionais -->
+        <div class="gallery-controls">
+            <button class="control-btn" id="autoplayBtn" title="Ativar/Desativar autoplay">
+                <span class="control-icon">▶</span>
+                <span class="control-text">Autoplay</span>
+            </button>
+            <button class="control-btn" id="fullscreenBtn" title="Tela cheia">
+                <span class="control-icon">⛶</span>
+                <span class="control-text">Tela Cheia</span>
+            </button>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="galeria-footer">
+            <p>Feito com ❤️ para você | Clique <strong>F</strong> para sair da tela cheia</p>
+        </footer>
+    </div>
+
+    <script src="galeria.js"></script>
+</body>
+</html>
