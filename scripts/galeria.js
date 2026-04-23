@@ -16,31 +16,61 @@
 const slides = [
     {
         tipo: 'image',  // 'image' para foto, 'video' para vídeo
-        src: 'https://via.placeholder.com/1600x1000?text=Foto+1+Aqui',  // ← Trocar por sua foto
-        titulo: 'Nosso Primeiro Encontro 💕',
+        src: 'img/MJ1.JPEG',  // ← Trocar por sua foto
+        titulo: '💕',
         descricao: 'O dia mais especial do ano começando com você'
     },
     {
         tipo: 'image',
-        src: 'https://via.placeholder.com/1600x1000?text=Foto+2+Aqui',  // ← Trocar por sua foto
+        src: 'img/MJ2.JPEG',  // ← Trocar por sua foto
         titulo: 'Momentos Felizes 😊',
         descricao: 'Cada sorriso teu é um presente que me alegra'
     },
     {
         tipo: 'image',
-        src: 'https://via.placeholder.com/1600x1000?text=Foto+3+Aqui',  // ← Trocar por sua foto
+        src: 'img/MJ3.JPEG',  // ← Trocar por sua foto
         titulo: 'Viagem Inesquecível ✈️',
         descricao: 'As melhores memórias são contigo'
     },
     {
         tipo: 'image',
-        src: 'https://via.placeholder.com/1600x1000?text=Foto+4+Aqui',  // ← Trocar por sua foto
+        src: 'img/MJ4.JPEG',  // ← Trocar por sua foto
         titulo: 'Diversão e Risadas 😄',
         descricao: 'Cada momento com você é uma aventura'
     },
     {
         tipo: 'image',
-        src: 'https://via.placeholder.com/1600x1000?text=Foto+5+Aqui',  // ← Trocar por sua foto
+        src: 'img/MJ5.JPEG',  // ← Trocar por sua foto
+        titulo: 'Você é Incrível 🌟',
+        descricao: 'Jú'
+    },
+        {
+        tipo: 'image',
+        src: 'img/MJ7.JPEG',  // ← Trocar por sua foto
+        titulo: 'Você é Incrível 🌟',
+        descricao: 'Essa é so para te iritar mesmo kkkkkk'
+    },
+        {
+        tipo: 'image',
+        src: 'img/MJ8.JPEG',  // ← Trocar por sua foto
+        titulo: 'Você é Incrível 🌟',
+        descricao: 'Essa também'
+    },
+        {
+        tipo: 'image',
+        src: 'img/MJ9.JPEG',  // ← Trocar por sua foto
+        titulo: 'Você é Incrível 🌟',
+        descricao: '👀👀👀👀'
+    },
+        {
+        tipo: 'image',
+        src: 'img/MJ10.JPEG',  // ← Trocar por sua foto
+        titulo: 'Você é Incrível 🌟',
+        descricao: 'Gataaaa'
+    },
+        {
+        tipo: 'video',
+        src: 'video/MJ11.mp4',  // ← Trocar por sua foto
         titulo: 'Você é Incrível 🌟',
         descricao: 'Obrigado por tudo que você me traz'
     }
