@@ -13,44 +13,8 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <!-- Container de Login -->
-    <div class="login-container" id="loginContainer">
-        <div class="login-box">
-            <h1>Acesso Restrito</h1>
-            <p class="subtitle">A página estará disponível em breve</p>
-            
-            <form id="loginForm" class="login-form">
-                <div class="form-group">
-                    <label for="username">Usuário:</label>
-                    <input 
-                        type="text" 
-                        id="username" 
-                        name="username" 
-                        placeholder="Digite seu usuário"
-                        required
-                    >
-                </div>
-                
-                <div class="form-group">
-                    <label for="password">Senha:</label>
-                    <input 
-                        type="password" 
-                        id="password" 
-                        name="password" 
-                        placeholder="Digite sua senha"
-                        required
-                    >
-                </div>
-                
-                <button type="submit" class="btn-login">Entrar</button>
-            </form>
-            
-            <!--<p class="demo-text">Use qualquer usuário e senha para testar</p>-->
-        </div>
-    </div>
-
     <!-- Container de Countdown -->
-    <div class="countdown-container hidden" id="countdownContainer">
+    <div class="countdown-container" id="countdownContainer">
         <video class="countdown-video" id="backgroundVideo" autoplay muted loop playsinline>
             <source src="video/video.mp4" type="video/mp4">
             Seu navegador não suporta vídeos HTML5
@@ -77,15 +41,9 @@
                     <span class="countdown-label">Segundos</span>
                 </div>
             </div>
-            
-            <div class="user-info">
-                <p>Você está logado como: <strong id="userDisplay"></strong></p>
-            </div>
-            
-            <button class="btn-logout" id="logoutBtn">Sair</button>
         </div>
     </div>
 
-    <script src="/scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
