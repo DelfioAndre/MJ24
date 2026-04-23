@@ -131,27 +131,17 @@ body {
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background: #00000065;
+    background: transparent;
 }
 
 .countdown-video {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    max-width: 200%;
-    max-height: 200%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translate(-50%, -50%) rotateY(0) rotateX(0);
-    -moz-transform: translate(-50%, -50%) rotateY(0) rotateX(0);
-    transform: translate(-50%, -50%) rotateY(0) rotateX(0);
 }
 
 .countdown-container.hidden {
@@ -410,7 +400,7 @@ body {
         padding: 30px 20px;
         max-width: 95%;
         border-radius: 12px;
-        background: rgba(0, 0, 0, 0.75);
+        background: rgba(0, 0, 0, 0.15);
     }
     
     .login-box h1,
@@ -488,18 +478,6 @@ body {
     
     .btn-logout {
         margin-top: 8px;
-    }
-}
-    }
-    
-    .user-info {
-        padding: 15px;
-        margin: 20px 0;
-        border-radius: 6px;
-    }
-    
-    .user-info p {
-        font-size: 13px;
     }
 }
 

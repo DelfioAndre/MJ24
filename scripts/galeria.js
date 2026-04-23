@@ -107,7 +107,7 @@ const slides = [
 let currentSlide = 0;
 let autoplayActive = false;
 let autoplayInterval = null;
-const AUTOPLAY_DELAY = 5000; // 5 segundos
+const AUTOPLAY_DELAY = 4000; // 4 segundos
 
 // ====== ELEMENTOS DO DOM ======
 const carouselContainer = document.getElementById('carouselContainer');
@@ -128,6 +128,9 @@ document.addEventListener('DOMContentLoaded', function() {
     updateSlideInfo();
     setupEventListeners();
     
+    // Iniciar autoplay automaticamente
+    startAutoplay();
+    
     // Entrar em fullscreen automaticamente
     setTimeout(function() {
         enterFullscreenAuto();
@@ -146,7 +149,7 @@ function renderSlides() {
         if (slide.tipo === 'image') {
             content = `<img src="${slide.src}" alt="${slide.titulo}">`;
         } else if (slide.tipo === 'video') {
-            content = `<video controls><source src="${slide.src}" type="video/mp4"></video>`;
+            content = `<video autoplay muted loop playsinline><source src="${slide.src}" type="video/mp4"></video>`;
         }
         
         slideEl.innerHTML = `
@@ -188,7 +191,7 @@ function renderThumbnails() {
             `;
         } else {
             thumbnail.innerHTML = `
-                <video><source src="${slide.src}" type="video/mp4"></video>
+                <video autoplay muted loop playsinline><source src="${slide.src}" type="video/mp4"></video>
                 <div class="thumbnail-overlay">▶</div>
             `;
         }
