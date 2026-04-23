@@ -15,64 +15,64 @@
 
 const slides = [
     {
-        tipo: 'image',  // 'image' para foto, 'video' para vídeo
-        src: 'img/MJ1.JPEG',  // ← Trocar por sua foto
-        titulo: '💕',
-        descricao: 'O dia mais especial do ano começando com você'
+        tipo: 'image',
+        src: 'img/MJ1.JPEG',
+        titulo: '💕 Nosso Começo',
+        descricao: 'O dia mais especial do ano ficou ainda mais brilhante contigo.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ2.JPEG',  // ← Trocar por sua foto
-        titulo: 'Momentos Felizes 😊',
-        descricao: 'Cada sorriso teu é um presente que me alegra'
+        src: 'img/MJ2.JPEG',
+        titulo: '😊 Teu Sorriso',
+        descricao: 'Cada sorriso teu é o melhor presente que posso receber.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ3.JPEG',  // ← Trocar por sua foto
-        titulo: 'Viagem Inesquecível ✈️',
-        descricao: 'As melhores memórias são contigo'
+        src: 'img/MJ3.JPEG',
+        titulo: '✈️ Aventuras Sem Fim',
+        descricao: 'As melhores memórias são aquelas criadas contigo.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ4.JPEG',  // ← Trocar por sua foto
-        titulo: 'Diversão e Risadas 😄',
-        descricao: 'Cada momento com você é uma aventura'
+        src: 'img/MJ4.JPEG',
+        titulo: '😄 Risadas e Alegria',
+        descricao: 'Contigo, até os dias mais normais se tornam especiais.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ5.JPEG',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: 'Jú'
+        src: 'img/MJ5.JPEG',
+        titulo: '🌹 Beleza Radiante',
+        descricao: 'Tu és muito mais do que vejo; és tudo o que sinto.'
     },
-        {
+    {
         tipo: 'image',
-        src: 'img/MJ7.JPEG',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: 'Essa é so para te iritar mesmo kkkkkk'
+        src: 'img/MJ7.JPEG',
+        titulo: '✨ Momentos Eternos',
+        descricao: 'Queria congelar cada momento ao teu lado para sempre.'
     },
-        {
+    {
         tipo: 'image',
-        src: 'img/MJ8.JPEG',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: 'Essa também'
+        src: 'img/MJ8.JPEG',
+        titulo: '💫 Meu Universo',
+        descricao: 'Tu és meu lugar favorito no mundo inteiro.'
     },
-        {
+    {
         tipo: 'image',
-        src: 'img/MJ9.JPEG',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: '👀👀👀👀'
+        src: 'img/MJ9.JPEG',
+        titulo: '👀 Silenciosos',
+        descricao: 'Um simples olhar teu diz tudo que preciso ouvir.'
     },
-        {
+    {
         tipo: 'image',
-        src: 'img/MJ10.JPEG',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: 'Gataaaa'
+        src: 'img/MJ10.JPEG',
+        titulo: '💎 Joia Rara',
+        descricao: 'Tu és aquela pessoa especial dos contos de fada.'
     },
-        {
+    {
         tipo: 'video',
-        src: 'video/MJ11.mp4',  // ← Trocar por sua foto
-        titulo: 'Você é Incrível 🌟',
-        descricao: 'Obrigado por tudo que você me traz'
+        src: 'video/MJ11.mp4',
+        titulo: '❤️ Para Sempre',
+        descricao: 'Obrigado por tornares minha vida tão bonita e real.'
     }
 ];
 
