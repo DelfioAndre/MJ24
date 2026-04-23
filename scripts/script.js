@@ -75,6 +75,26 @@ function performLogin(username) {
     loginContainer.classList.add('hidden');
     countdownContainer.classList.remove('hidden');
     
+    // Garantir que o vídeo está em loop e tocando
+    const videoElement = document.getElementById('backgroundVideo');
+    if (videoElement) {
+        videoElement.loop = true;
+        videoElement.muted = true;
+        videoElement.autoplay = true;
+        
+        // Tentar dar play ao vídeo (para maior compatibilidade)
+        const playPromise = videoElement.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(error => {
+                console.log('Autoplay pode estar bloqueado. Tentando novamente...');
+                // Retry após um pequeno delay
+                setTimeout(() => {
+                    videoElement.play().catch(e => console.log('Não foi possível iniciar o vídeo'));
+                }, 500);
+            });
+        }
+    }
+    
     // Iniciar o countdown
     startCountdown();
 }
@@ -153,6 +173,22 @@ window.addEventListener('load', function() {
         userDisplay.textContent = loggedInUser;
         loginContainer.classList.add('hidden');
         countdownContainer.classList.remove('hidden');
+        
+        // Garantir que o vídeo está configurado corretamente
+        const videoElement = document.getElementById('backgroundVideo');
+        if (videoElement) {
+            videoElement.loop = true;
+            videoElement.muted = true;
+            videoElement.autoplay = true;
+            
+            const playPromise = videoElement.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    console.log('Autoplay pode estar bloqueado.');
+                });
+            }
+        }
+        
         startCountdown();
     }
 });
