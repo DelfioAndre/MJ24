@@ -16,55 +16,55 @@
 const slides = [
     {
         tipo: 'image',
-        src: 'img/MJ1.JPEG',
+        src: 'img/MJ1.jpeg',
         titulo: '💕 Nosso Começo',
         descricao: 'O dia mais especial do ano ficou ainda mais brilhante contigo.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ2.JPEG',
+        src: 'img/MJ2.jpeg',
         titulo: '😊 Teu Sorriso',
         descricao: 'Cada sorriso teu é o melhor presente que posso receber.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ3.JPEG',
+        src: 'img/MJ3.jpeg',
         titulo: '✈️ Aventuras Sem Fim',
         descricao: 'As melhores memórias são aquelas criadas contigo.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ4.JPEG',
+        src: 'img/MJ4.jpeg',
         titulo: '😄 Risadas e Alegria',
         descricao: 'Contigo, até os dias mais normais se tornam especiais.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ5.JPEG',
+        src: 'img/MJ5.jpeg',
         titulo: '🌹 Beleza Radiante',
         descricao: 'Tu és muito mais do que vejo; és tudo o que sinto.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ7.JPEG',
+        src: 'img/MJ7.jpeg',
         titulo: '✨ Momentos Eternos',
         descricao: 'Queria congelar cada momento ao teu lado para sempre.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ8.JPEG',
+        src: 'img/MJ8.jpeg',
         titulo: '💫 Meu Universo',
         descricao: 'Tu és meu lugar favorito no mundo inteiro.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ9.JPEG',
+        src: 'img/MJ9.jpeg',
         titulo: '👀 Silenciosos',
         descricao: 'Um simples olhar teu diz tudo que preciso ouvir.'
     },
     {
         tipo: 'image',
-        src: 'img/MJ10.JPEG',
+        src: 'img/MJ10.jpeg',
         titulo: '💎 Joia Rara',
         descricao: 'Tu és aquela pessoa especial dos contos de fada.'
     },
