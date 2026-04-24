@@ -17,7 +17,7 @@ const slides = [
     {
         tipo: 'image',
         src: 'img/MJ1.jpeg',
-        titulo: '💕 Nosso Começo',
+        titulo: '💕 MJ',
         descricao: 'O dia mais especial do ano ficou ainda mais brilhante contigo.'
     },
     {
@@ -29,7 +29,7 @@ const slides = [
     {
         tipo: 'image',
         src: 'img/MJ3.jpeg',
-        titulo: '✈️ Aventuras Sem Fim',
+        titulo: '✈️ Aventuras ',
         descricao: 'As melhores memórias são aquelas criadas contigo.'
     },
     {
@@ -72,7 +72,7 @@ const slides = [
         tipo: 'video',
         src: 'video/MJ11.mp4',
         titulo: '❤️ Para Sempre',
-        descricao: 'Obrigado por tornares minha vida tão bonita e real.'
+        descricao: 'Nem sempre o dia nasce boito, já voê todos os dias tá uma gracinha.'
     }
 ];
 
